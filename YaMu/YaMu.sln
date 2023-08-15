@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YaMu.Identity", "YaMu.Identity\YaMu.Identity.csproj", "{1D35F6DC-11B1-4AC4-80D6-1720FE582C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YaMu.Helpers", "YaMu.Helpers\YaMu.Helpers.csproj", "{B0544741-AB36-447A-B533-5C06FD9E991F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D35F6DC-11B1-4AC4-80D6-1720FE582C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D35F6DC-11B1-4AC4-80D6-1720FE582C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D35F6DC-11B1-4AC4-80D6-1720FE582C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D35F6DC-11B1-4AC4-80D6-1720FE582C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0544741-AB36-447A-B533-5C06FD9E991F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0544741-AB36-447A-B533-5C06FD9E991F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0544741-AB36-447A-B533-5C06FD9E991F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0544741-AB36-447A-B533-5C06FD9E991F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF011FB5-5D02-4F22-B448-07FB6C33A15F}
+	EndGlobalSection
+EndGlobal
