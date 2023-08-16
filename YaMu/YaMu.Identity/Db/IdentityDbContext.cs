@@ -50,8 +50,10 @@ namespace YaMu.Identity.Db
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new SessionConfiguration());
             modelBuilder.ApplyConfiguration(new LoginAttemptConfiguration());
+            modelBuilder.ApplyConfiguration(new MFAConfiguration());
+            modelBuilder.ApplyConfiguration(new RoleClaimConfiguration());
+            modelBuilder.ApplyConfiguration(new SessionConfiguration());
         }
     }
 }

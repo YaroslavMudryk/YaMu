@@ -10,6 +10,7 @@ public class App : BaseSoftDeletableModel<int>
     public string Image { get; set; }
     public string ClientId { get; set; }
     public string ClientSecret { get; set; }
+    public int? UserId { get; set; }
     public bool IsActive { get; set; }
     public DateTime ActiveFrom { get; set; }
     public DateTime ActiveTo { get; set; }
