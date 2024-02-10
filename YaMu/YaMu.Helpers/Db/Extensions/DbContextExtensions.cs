@@ -6,7 +6,7 @@ namespace YaMu.Helpers.Db.Extensions
     {
         public static void ApplyAuditInfo(this DbContext dbContext, IIdentityService identityService, IDateTimeProvider dateTimeProvider)
         {
-            var now = dateTimeProvider.Now;
+            var now = dateTimeProvider.UtcNow;
 
             ApplyUpsertInfo(dbContext, now, identityService);
             ApplyDeleteInfo(dbContext, now, identityService);
